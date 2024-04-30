@@ -1,7 +1,5 @@
 {
   "dependencies": {
-    "express": "^4.19.2",
-    "vercel": "^32.3.0",
-    "ws": "^8.17.0"
+    "express": "^4.19.2"
   }
 }
