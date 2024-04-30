@@ -9,7 +9,7 @@
     <input type="text" id="message" style="width: 300px" />
     <button onclick="sendMessage()">Send</button>
     <script>
-      var ws = new WebSocket("ws://159.54.132.250:3003");
+      var ws = new WebSocket("ws://159.54.132.250:3004");
       ws.onmessage = function (event) {
         var chat = document.getElementById("chat");
         chat.value += event.data + "\n";

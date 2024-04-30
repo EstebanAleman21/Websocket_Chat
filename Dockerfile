@@ -14,7 +14,7 @@ RUN git clone ${GITHUB_REPO_URL} .
 RUN npm install
 
 # Make port 3003 available to the world outside this container
-EXPOSE 3003
+EXPOSE 3004
 
 # Define environment variable
 ENV NAME WebSocketChat
